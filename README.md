@@ -10,6 +10,10 @@ Este é um projeto de simulador de medidor de glicose no sangue desenvolvido par
 - Potenciômetro conectado ao pino analógico 34
 - Acesso a uma rede WiFi
 
+## Video de demonstração
+
+- [Video](https://youtu.be/dqxhQ3M2JWg)
+
 ## Dependências
 
 - [Biblioteca WiFi](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi)
