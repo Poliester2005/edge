@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Eduardo Pielich",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot1",
+      "top": -100.6,
+      "left": -77.8,
+      "attrs": { "travelLength": "30" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "pot1:GND", "esp:GND.3", "black", [ "v0" ] ],
+    [ "pot1:VCC", "esp:5V", "red", [ "h-19.2", "v249.6" ] ],
+    [ "pot1:SIG", "esp:34", "green", [ "h9.6", "v104.8" ] ]
+  ],
+  "dependencies": {}
+}
