@@ -48,8 +48,6 @@ O Serial Monitor exibirá as seguintes informações:
 - Ajuste o pino analógico e outros parâmetros conforme necessário.
 - Este projeto assume que o broker MQTT não possui medidas de segurança (nome de usuário/senha). Modifique conforme necessário para conexões seguras.
 
-Sinta-se à vontade para personalizar e aprimorar o código de acordo com seus requisitos específicos!
-
 ---
 
 **Feito por:**
